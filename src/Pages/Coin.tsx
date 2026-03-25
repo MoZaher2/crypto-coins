@@ -128,7 +128,7 @@ export default function Coin() {
               </> :
               <>
                 <div className="no-results">
-                  <img src="/public/coin-not-found.png" alt="Coin not found" />
+                  <img src="/coin-not-found.png" alt="Coin not found" />
                   <button onClick={() => navigate('/')} className="back-button">
                     Back to Home page
                   </button>
