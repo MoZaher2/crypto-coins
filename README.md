@@ -37,19 +37,6 @@ A modern **cryptocurrency tracking web application** that allows users to explor
 
 ---
 
-<div style="display:flex; gap:10px; flex-wrap:wrap;">
-  <div style="flex:1;">
-    <h4>🏠 Home Page (Mobile)</h4>
-    <img src="./screenshots/HomePageforMobile.png" width="52%" />
-  </div>
-  <div style="flex:1;">
-    <h4>🏠 Coin Details Page (Mobile)</h4>
-    <img src="./screenshots/CoinPageforMobile.png" width="60%" />
-  </div>
-</div>
-
----
-
 ### 📄 Pagination Example
 
 <img src="./screenshots/Pagination.png" width="60%" />
@@ -62,8 +49,35 @@ A modern **cryptocurrency tracking web application** that allows users to explor
 
 ---
 
-### 👨‍💻 Author
+<table>
+  <tr>
+    <td align="center">
+      <b>🏠 Home Page (Mobile)</b><br/>
+      <img src="./screenshots/HomePageforMobile.png" width="60%"/>
+    </td>
+    <td align="center">
+      <b>🏠 Coin Details (Mobile)</b><br/>
+      <img src="./screenshots/CoinPageforMobile.png" width="60%"/>
+    </td>
+  </tr>
+</table>
 
-**Mohamed Zaher**  
-Frontend & Full-Stack Developer  
-[GitHub](https://github.com/MoZaher2) | [LinkedIn](https://www.linkedin.com/in/mohamedzaher-dev)
+---
+
+## 👨‍💻 Author
+
+### Mohamed Zaher Taha
+
+* Frontend / Full Stack Web Developer
+* React & Next.js Developer
+
+<p align="left">
+  <a href="https://github.com/MoZaher2" target="_blank">
+    <img src="https://img.shields.io/badge/GitHub-MoZaher2-181717?style=for-the-badge&logo=github&logoColor=white" />
+  </a>
+  <a href="https://www.linkedin.com/in/mohamedzaher-dev/" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
+  </a>
+</p>
+
+---
