@@ -1,73 +1,69 @@
-# React + TypeScript + Vite
+# 🚀 Crypto Coins Tracker
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern **cryptocurrency tracking web application** that allows users to explore real-time data about different cryptocurrencies, including prices, market trends, and detailed coin information.
 
-Currently, two official plugins are available:
+[![Live Demo](https://img.shields.io/badge/Live_Demo-View_Project-00C7B7?style=for-the-badge&logo=vercel&logoColor=white)](https://crypto-coins-three.vercel.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+### 🌐 Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- 📊 Real-time cryptocurrency price tracking
+- 🔍 Search for any cryptocurrency
+- 📄 Pagination for better performance and user experience
+- 📈 Interactive charts using Recharts
+- 💹 View detailed coin information (price, market cap, rank, etc.)
+- ⚡ Fast API data handling using native Fetch API (no external data-fetch library)
+- 📱 Fully responsive UI
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+### 🛠️ Tech Stack
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+<p align="left">
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
+  <img src="https://img.shields.io/badge/CSS3-Native_CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
+  <img src="https://img.shields.io/badge/Fetch_API-000000?style=for-the-badge&logo=javascript&logoColor=white" />
+  <img src="https://img.shields.io/badge/Recharts-FF6B6B?style=for-the-badge&logo=recharts&logoColor=white" />
+</p>
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+---
+## 📸 Screenshots
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+### 🏠 Home Page
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+  <img src="./screenshots/HomePage.png" width="60%" />
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+---
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+<div style="display:flex; gap:10px; flex-wrap:wrap;">
+  <div style="flex:1;">
+    <h4>🏠 Home Page (Mobile)</h4>
+    <img src="./screenshots/HomePageforMobile.png" width="52%" />
+  </div>
+  <div style="flex:1;">
+    <h4>🏠 Coin Details Page (Mobile)</h4>
+    <img src="./screenshots/CoinPageforMobile.png" width="60%" />
+  </div>
+</div>
+
+---
+
+### 📄 Pagination Example
+
+<img src="./screenshots/Pagination.png" width="60%" />
+
+---
+
+### 📈 Charts (Recharts)
+
+<img src="./screenshots/CoinChart.png" width="60%" />
+
+---
+
+### 👨‍💻 Author
+
+**Mohamed Zaher**  
+Frontend & Full-Stack Developer  
+[GitHub](https://github.com/MoZaher2) | [LinkedIn](https://www.linkedin.com/in/mohamedzaher-dev)
